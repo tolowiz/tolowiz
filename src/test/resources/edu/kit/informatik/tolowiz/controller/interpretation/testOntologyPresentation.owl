@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#"
+     xml:base="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Bluetooth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Bluetooth"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Cable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Cable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Interface -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Interface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#isInNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#isInNetwork"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#isLinked -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#isLinked"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#softwareInventory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#softwareInventory"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#AllowedConnections -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#AllowedConnections"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#AllowedUsers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#AllowedUsers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CPU -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CPU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CompanyOwned -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CompanyOwned"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#ConstructionYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#ConstructionYear"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#GPU -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#GPU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#electricityNeeds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#electricityNeeds"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#HardwareDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#HardwareDevice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Interface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Mouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Mouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#HardwareDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Network"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#HardwareDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Router -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Router">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#HardwareDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Software"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#BluethoothMouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#BluethoothMouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Mouse"/>
+        <Bluetooth rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCUserA"/>
+        <ConstructionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ConstructionYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CompanyNet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CompanyNet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Network"/>
+        <AllowedConnections rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</AllowedConnections>
+        <CompanyOwned>yes</CompanyOwned>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#FritzBox1070 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#FritzBox1070">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Router"/>
+        <isInNetwork rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CompanyNet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#HomeNet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#HomeNet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Network"/>
+        <AllowedConnections rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</AllowedConnections>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCInterface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Interface"/>
+        <isInNetwork rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CompanyNet"/>
+        <AllowedConnections rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</AllowedConnections>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCUserA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCUserA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PC"/>
+        <isInNetwork rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#HomeNet"/>
+        <softwareInventory rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Photoshop"/>
+        <softwareInventory rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Windows"/>
+        <CPU>i5 8gen</CPU>
+        <CompanyOwned>no</CompanyOwned>
+        <GPU>U620</GPU>
+        <electricityNeeds>1kwh</electricityNeeds>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCUserB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCUserB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PC"/>
+        <Interface rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCInterface"/>
+        <isInNetwork rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#CompanyNet"/>
+        <softwareInventory rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Windows"/>
+        <AllowedUsers>Florian Patzer</AllowedUsers>
+        <CPU>i9 7gen</CPU>
+        <CompanyOwned>yes</CompanyOwned>
+        <ConstructionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</ConstructionYear>
+        <GPU>GTX 1070</GPU>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Photoshop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Photoshop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Protege -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Protege">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Software"/>
+        <softwareInventory rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCUserB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Windows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Windows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#WiredMouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#WiredMouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#Mouse"/>
+        <Cable rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyPresentation#PCUserB"/>
+        <ConstructionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</ConstructionYear>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

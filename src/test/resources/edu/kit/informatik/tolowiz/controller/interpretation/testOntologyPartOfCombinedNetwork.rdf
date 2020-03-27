@@ -1,0 +1,1294 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork"
+     xml:base="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sql="http://iosb.fraunhofer.de/ICS-Security/sql#"
+     xmlns:ws1="http://iosb.fraunhofer.de/ICS-Security/ws1#"
+     xmlns:ws2="http://iosb.fraunhofer.de/ICS-Security/ws2#"
+     xmlns:ws3="http://iosb.fraunhofer.de/ICS-Security/ws3#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:ctrl="http://iosb.fraunhofer.de/ICS-Security/ctrl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:term="http://purl.org/dc/terms/"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:cloud="http://iosb.fraunhofer.de/ICS-Security/cloud#"
+     xmlns:revpi="http://iosb.fraunhofer.de/ICS-Security/revpi#"
+     xmlns:sense1="http://iosb.fraunhofer.de/ICS-Security/sense1#"
+     xmlns:sense2="http://iosb.fraunhofer.de/ICS-Security/sense2#"
+     xmlns:ICS-Security="http://iosb.fraunhofer.de/ICS-Security#"
+     xmlns:testOntologyPartOfCombinedNetwork="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#">
+    <owl:Ontology rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork">
+        <term:bibliographicCitation xml:lang="en">we can&apos;t make this field disappear</term:bibliographicCitation>
+        <term:contributor>Louisa Lambrecht,
+Florian Patzer</term:contributor>
+        <term:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-28T00:00:00</term:created>
+        <term:creator>David Kahles</term:creator>
+        <term:description xml:lang="en">The ICS Security Ontology represents hardware and software objects, configurations of those and their relationships within networks.</term:description>
+        <term:license>license should go here</term:license>
+        <term:title xml:lang="en">ICS Security Ontology</term:title>
+        <vann:preferredNamespaceUri>http://iosb.fraunhofer.de/ICS-Security#</vann:preferredNamespaceUri>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#allowedConnection -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#allowedConnection">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#RoutingDevice"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#AllowedConnection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#assignedDmz -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#assignedDmz"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#assignedToNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#assignedToNetwork">
+        <rdfs:subPropertyOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#isInNetwork"/>
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#communicates -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#communicates">
+        <rdfs:subPropertyOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#connected"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#connected -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#connected">
+        <rdfs:subPropertyOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#connectedIgnoredDestinationPort -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#connectedIgnoredDestinationPort">
+        <rdfs:subPropertyOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#connectedIgnoredSourcePort -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#connectedIgnoredSourcePort">
+        <rdfs:subPropertyOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#containsInterface -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#containsInterface">
+        <owl:inverseOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#isInNetwork"/>
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#containsNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#containsNetwork"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#destinationPort -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#destinationPort">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#AllowedConnection"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PortRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#firewallConfig -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#firewallConfig"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#installedSoftware -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#installedSoftware">
+        <rdfs:comment xml:lang="en">A software inventory contains all installed software on a device.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Asset"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#isInNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#isInNetwork">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#parentNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#parentNetwork">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestInterface -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestInterface"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestNetwork"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfFirstRule -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfFirstRule"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfNextRule -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfNextRule"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourceInterface -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourceInterface"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourceNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourceNetwork"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#runsOS -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#runsOS">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Asset"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#OperatingSystem"/>
+        <rdfs:comment>e.g. a hardware device runs with an operting system</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#service -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#service">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ServiceList"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#serviceList -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#serviceList">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Asset"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ServiceList"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#softwareInventory -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#softwareInventory">
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareInventory"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#sourcePort -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#sourcePort">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#AllowedConnection"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PortRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#usesInterface -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#usesInterface">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:range rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#architecture -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#architecture"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#cpe -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#cpe">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">stores the CPE of a hardware device, operating system or an application; e.g. cpe:2.3:a:microsoft:office:2016:-:-:-:-:mac_os_x bzw. cpe:/a:microsoft:office:2016::~~~mac_os_x~~</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#distribution -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#distribution"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#hasName"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#hostname -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#hostname">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#identifier">
+        <rdfs:domain rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A unique identifier for a (Hardware/Software) device</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ipV4Address -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ipV4Address">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+        <rdfs:comment xml:lang="en">Saves the IPv4 address as an unsigned integer ( &quot;10.0.0.1&quot; -&gt; binary: 1010.0000 0000.0000 0000.0000 0001 -&gt; decimal: 167,772,161 ).</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#prefixBits"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#layer4Protocol -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#layer4Protocol"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#macAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#macAddress"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#machineIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#machineIdentifier"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#networkType -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#networkType">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfAction -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfAction">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestAddress"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestinationPortDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestinationPortDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDirection -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDirection"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfInterface -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfInterface">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfProtocol -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfProtocol">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfQuick -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfQuick">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourceAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourceAddress"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourcePortDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourcePortDescription">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#port -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#port"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#portMax -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#portMax">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#portMin -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#portMin">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#prefixBits -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#prefixBits">
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#byte">32</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Reveals the network/device part of an IPv4 address (range 0-32). Used in SWRL rules to determine parent networks etc.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ipV4Address"/>
+        <rdfs:seeAlso rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#isInNetwork"/>
+        <rdfs:seeAlso rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#parentNetwork"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#version -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#version">
+        <rdfs:comment xml:lang="en">Holds the version of e.g. a software (usually as a string).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#AllowedConnection -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#AllowedConnection">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestInterface"/>
+                <owl:someValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfDestNetwork"/>
+                <owl:someValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourceInterface"/>
+                <owl:someValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfSourceNetwork"/>
+                <owl:someValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#destinationPort"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PortRange"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#sourcePort"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PortRange"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Asset -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Asset">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface"/>
+                <owl:someValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#DnsInterface -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#DnsInterface">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#DnsInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#DnsServer -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#DnsServer">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ServiceSpecification"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#DnsInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#usesInterface"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Firewall -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Firewall">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Asset"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#runsOS"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#OperatingSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#softwareInventory"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareInventory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HttpInterface -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HttpInterface">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HttpInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#usesInterface"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#isInNetwork"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#usesInterface"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#containsInterface"/>
+                <owl:someValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#parentNetwork"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#NetworkZone -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#NetworkZone">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#assignedDmz"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#NetworkZone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#containsNetwork"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Network"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#OperatingSystem -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#OperatingSystem">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+        <rdfs:comment xml:lang="en">The operating system of a device (Node). Relates to CPE&apos;s concerning operating systems and firmware.</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#OperatingSystem"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">The operating system of a device (Node). Relates to CPE&apos;s concerning operating systems and firmware.</owl:annotatedTarget>
+        <swrl:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:comment>Add Interfaces to Networks they also belong to</rdfs:comment>
+        <rdfs:comment>All Ethernet Interfaces are compatible</rdfs:comment>
+        <rdfs:comment>All IP Interfaces are compatible</rdfs:comment>
+        <rdfs:comment>All TCP Interfaces are compatible</rdfs:comment>
+        <rdfs:comment>Classify devices with pfConfig as Firewalls</rdfs:comment>
+        <rdfs:comment>Classify nodes with bind9 installed, and a DnsInterface as DnsServers</rdfs:comment>
+        <rdfs:comment>Connect IP Interfaces which are connected by Ethernet</rdfs:comment>
+        <rdfs:comment>Infer Subnet Relations: hasParentNetwork</rdfs:comment>
+        <rdfs:comment>Make ethernet interfaces always symetric</rdfs:comment>
+        <rdfs:comment>Switches connect devices on Layer2</rdfs:comment>
+        <rdfs:label>ClassifyDnsServer</rdfs:label>
+        <rdfs:label>ClassifyFirewall</rdfs:label>
+        <rdfs:label>ConnectIPInterfaces</rdfs:label>
+        <rdfs:label>EthSwitchConnection</rdfs:label>
+        <rdfs:label>EthSymmetric</rdfs:label>
+        <rdfs:label>EthernetCompatibility</rdfs:label>
+        <rdfs:label>IPCompatible</rdfs:label>
+        <rdfs:label>LocalUdpConnections</rdfs:label>
+        <rdfs:label>SubnetRelations</rdfs:label>
+        <rdfs:label>TCPCompatible</rdfs:label>
+        <rdfs:label>TransitiveSubnetRelations</rdfs:label>
+    </owl:Axiom>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Pf -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Pf">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfConfiguration -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfConfiguration">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Pf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#pfFirstRule"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfRule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfRule -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfRule">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Pf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PortRange -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PortRange">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Router -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Router">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#RoutingDevice -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#RoutingDevice">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ServiceSpecification"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#allowedConnection"/>
+                <owl:someValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#AllowedConnection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Service -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Service">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ServiceList -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ServiceList">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#service"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Service"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ServiceSpecification -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#ServiceSpecification"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Software -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Software">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareDevice -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareDevice">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Asset"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#softwareInventory"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareInventory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareInventory -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareInventory">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Configuration"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#installedSoftware"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Software"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Switch -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Switch">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#interface"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#TcpInterface -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#TcpInterface">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#TcpInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#usesInterface"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#UdpInterface -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#UdpInterface">
+        <rdfs:subClassOf rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Interface"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#compatible"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#UdpInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#usesInterface"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/cloud#WIN-5PM8F5L4V35 -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/cloud#WIN-5PM8F5L4V35">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice"/>
+        <testOntologyPartOfCombinedNetwork:hostname>WIN-5PM8F5L4V35</testOntologyPartOfCombinedNetwork:hostname>
+        <testOntologyPartOfCombinedNetwork:machineIdentifier>00252-10000-00000-AA228</testOntologyPartOfCombinedNetwork:machineIdentifier>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ctrl#fuse -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ctrl#fuse">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Software"/>
+        <testOntologyPartOfCombinedNetwork:architecture>amd64</testOntologyPartOfCombinedNetwork:architecture>
+        <testOntologyPartOfCombinedNetwork:hasName>fuse</testOntologyPartOfCombinedNetwork:hasName>
+        <testOntologyPartOfCombinedNetwork:version>2.9.7-1ubuntu1</testOntologyPartOfCombinedNetwork:version>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ctrl#inventory -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ctrl#inventory">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#SoftwareInventory"/>
+        <testOntologyPartOfCombinedNetwork:installedSoftware rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ctrl#fuse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ctrl#loEthernetInterface -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ctrl#loEthernetInterface">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+        <testOntologyPartOfCombinedNetwork:hasName>lo</testOntologyPartOfCombinedNetwork:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/revpi#loIpV4Interface -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/revpi#loIpV4Interface">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+        <testOntologyPartOfCombinedNetwork:hasName>lo</testOntologyPartOfCombinedNetwork:hasName>
+        <testOntologyPartOfCombinedNetwork:ipV4Address rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2130706433</testOntologyPartOfCombinedNetwork:ipV4Address>
+        <testOntologyPartOfCombinedNetwork:prefixBits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</testOntologyPartOfCombinedNetwork:prefixBits>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense1#fw-ids-office_silab-ip_iosb_fraunhofer_de -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense1#fw-ids-office_silab-ip_iosb_fraunhofer_de">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice"/>
+        <testOntologyPartOfCombinedNetwork:interface rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense1#lo0EthernetInterface"/>
+        <testOntologyPartOfCombinedNetwork:hostname>fw-ids-office.silab-ip.iosb.fraunhofer.de</testOntologyPartOfCombinedNetwork:hostname>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense1#lo0EthernetInterface -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense1#lo0EthernetInterface">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+        <testOntologyPartOfCombinedNetwork:hasName>lo0</testOntologyPartOfCombinedNetwork:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#lo0IpV4Interface -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#lo0IpV4Interface">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+        <testOntologyPartOfCombinedNetwork:hasName>lo0</testOntologyPartOfCombinedNetwork:hasName>
+        <testOntologyPartOfCombinedNetwork:ipV4Address rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2130706433</testOntologyPartOfCombinedNetwork:ipV4Address>
+        <testOntologyPartOfCombinedNetwork:prefixBits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</testOntologyPartOfCombinedNetwork:prefixBits>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pass_suffix11 -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pass_suffix11">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfRule"/>
+        <testOntologyPartOfCombinedNetwork:pfAction>pass</testOntologyPartOfCombinedNetwork:pfAction>
+        <testOntologyPartOfCombinedNetwork:pfDestAddress>172.16.121.2</testOntologyPartOfCombinedNetwork:pfDestAddress>
+        <testOntologyPartOfCombinedNetwork:pfDirection>in</testOntologyPartOfCombinedNetwork:pfDirection>
+        <testOntologyPartOfCombinedNetwork:pfInterface>em0</testOntologyPartOfCombinedNetwork:pfInterface>
+        <testOntologyPartOfCombinedNetwork:pfQuick rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</testOntologyPartOfCombinedNetwork:pfQuick>
+        <testOntologyPartOfCombinedNetwork:pfSourceAddress>any</testOntologyPartOfCombinedNetwork:pfSourceAddress>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pass_suffix2 -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pass_suffix2">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfRule"/>
+        <testOntologyPartOfCombinedNetwork:pfAction>pass</testOntologyPartOfCombinedNetwork:pfAction>
+        <testOntologyPartOfCombinedNetwork:pfDestAddress>255.255.255.255</testOntologyPartOfCombinedNetwork:pfDestAddress>
+        <testOntologyPartOfCombinedNetwork:pfDestinationPortDescription>= bootps</testOntologyPartOfCombinedNetwork:pfDestinationPortDescription>
+        <testOntologyPartOfCombinedNetwork:pfDirection>in</testOntologyPartOfCombinedNetwork:pfDirection>
+        <testOntologyPartOfCombinedNetwork:pfInterface>em1</testOntologyPartOfCombinedNetwork:pfInterface>
+        <testOntologyPartOfCombinedNetwork:pfProtocol>udp</testOntologyPartOfCombinedNetwork:pfProtocol>
+        <testOntologyPartOfCombinedNetwork:pfQuick rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</testOntologyPartOfCombinedNetwork:pfQuick>
+        <testOntologyPartOfCombinedNetwork:pfSourceAddress>any</testOntologyPartOfCombinedNetwork:pfSourceAddress>
+        <testOntologyPartOfCombinedNetwork:pfSourcePortDescription>= bootpc</testOntologyPartOfCombinedNetwork:pfSourcePortDescription>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pass_suffix6 -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pass_suffix6">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfRule"/>
+        <testOntologyPartOfCombinedNetwork:pfAction>pass</testOntologyPartOfCombinedNetwork:pfAction>
+        <testOntologyPartOfCombinedNetwork:pfDirection>out</testOntologyPartOfCombinedNetwork:pfDirection>
+        <testOntologyPartOfCombinedNetwork:pfInterface>lo0</testOntologyPartOfCombinedNetwork:pfInterface>
+        <testOntologyPartOfCombinedNetwork:pfQuick rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</testOntologyPartOfCombinedNetwork:pfQuick>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pfSense -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pfSense">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#OperatingSystem"/>
+        <testOntologyPartOfCombinedNetwork:distribution>pfSense</testOntologyPartOfCombinedNetwork:distribution>
+        <testOntologyPartOfCombinedNetwork:version>11.1-RELEASE-p6</testOntologyPartOfCombinedNetwork:version>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pf_configuration -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sense2#pf_configuration">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#PfConfiguration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sql#ftp -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sql#ftp">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Software"/>
+        <testOntologyPartOfCombinedNetwork:architecture>amd64</testOntologyPartOfCombinedNetwork:architecture>
+        <testOntologyPartOfCombinedNetwork:hasName>ftp</testOntologyPartOfCombinedNetwork:hasName>
+        <testOntologyPartOfCombinedNetwork:version>0.17-34</testOntologyPartOfCombinedNetwork:version>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sql#fwupdate -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sql#fwupdate">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#Software"/>
+        <testOntologyPartOfCombinedNetwork:architecture>amd64</testOntologyPartOfCombinedNetwork:architecture>
+        <testOntologyPartOfCombinedNetwork:hasName>fwupdate</testOntologyPartOfCombinedNetwork:hasName>
+        <testOntologyPartOfCombinedNetwork:version>10-3</testOntologyPartOfCombinedNetwork:version>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sql#loEthernetInterface -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/sql#loEthernetInterface">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#EthernetInterface"/>
+        <testOntologyPartOfCombinedNetwork:hasName>lo</testOntologyPartOfCombinedNetwork:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws1#Microsoft_Windows_7_Enterprise_ -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws1#Microsoft_Windows_7_Enterprise_">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#OperatingSystem"/>
+        <testOntologyPartOfCombinedNetwork:version>6.1.7601 Service Pack 1 Build 7601</testOntologyPartOfCombinedNetwork:version>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws1#WORKSTATION1 -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws1#WORKSTATION1">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice"/>
+        <testOntologyPartOfCombinedNetwork:runsOS rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws1#Microsoft_Windows_7_Enterprise_"/>
+        <testOntologyPartOfCombinedNetwork:hostname>WORKSTATION1</testOntologyPartOfCombinedNetwork:hostname>
+        <testOntologyPartOfCombinedNetwork:machineIdentifier>00392-918-5000002-85769</testOntologyPartOfCombinedNetwork:machineIdentifier>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws2#Workstation2 -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws2#Workstation2">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice"/>
+        <testOntologyPartOfCombinedNetwork:hostname>Workstation2</testOntologyPartOfCombinedNetwork:hostname>
+        <testOntologyPartOfCombinedNetwork:machineIdentifier>6d5b165d4da14010a42f473bc92dde62</testOntologyPartOfCombinedNetwork:machineIdentifier>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws3#IpV4Interface -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws3#IpV4Interface">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#IpV4Interface"/>
+        <testOntologyPartOfCombinedNetwork:hasName>Microsoft-ISATAP-Adapter</testOntologyPartOfCombinedNetwork:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws3#WORKSTATION2 -->
+
+    <owl:NamedIndividual rdf:about="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws3#WORKSTATION2">
+        <rdf:type rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork#HardwareDevice"/>
+        <testOntologyPartOfCombinedNetwork:interface rdf:resource="http://iosb.fraunhofer.de/testOntologyPartOfCombinedNetwork/ws3#IpV4Interface"/>
+        <testOntologyPartOfCombinedNetwork:hostname>WORKSTATION2</testOntologyPartOfCombinedNetwork:hostname>
+        <testOntologyPartOfCombinedNetwork:machineIdentifier>00392-918-5000002-85893</testOntologyPartOfCombinedNetwork:machineIdentifier>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

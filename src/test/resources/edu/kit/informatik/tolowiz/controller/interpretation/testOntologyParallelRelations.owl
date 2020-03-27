@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#"
+     xml:base="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:testOntologyParallelRelations="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#A -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#A"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#B -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#B"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#C -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#C"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#D -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#D"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#E -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#E"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#F -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#F"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#G -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#G"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#H -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#H"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#ItemA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#ItemA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#ItemB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#ItemB"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#ItemA"/>
+        <A rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2"/>
+        <B rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2"/>
+        <C rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2"/>
+        <D rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2"/>
+        <E rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2"/>
+        <F rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing1b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing1b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#ItemA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#ItemB"/>
+        <A rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing1"/>
+        <H rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#Thing2b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/testOntologyParallelRelations#ItemB"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

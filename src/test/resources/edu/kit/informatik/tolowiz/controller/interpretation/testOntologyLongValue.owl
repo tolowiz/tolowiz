@@ -1,0 +1,286 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue"
+     xml:base="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-14="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#"
+     xmlns:testOntologyLongValue="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#isLinked -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#isLinked"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#knows -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#knows"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#hasTerriblyLongValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#hasTerriblyLongValue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#BelongsTo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#BelongsTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#ConstructionYears -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#ConstructionYears"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#ID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#ID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#isBroken -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#isBroken"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Interface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Laptop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Laptop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PC"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Phone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Phone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Smartphone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Smartphone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Phone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#WiredPhone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#WiredPhone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Phone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Router -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Router"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Switch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Switch"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Tablet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Tablet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PC"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#ChefPhone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#ChefPhone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Smartphone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#CompanyPhone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#CompanyPhone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Phone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#InterfaceA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#InterfaceA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Interface"/>
+        <untitled-ontology-14:isLinked rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#PCUserD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#PCUserD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#Laptop"/>
+        <untitled-ontology-14:knows rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#InterfaceA"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#SecretarysPhone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#SecretarysPhone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/testOntologyLongValue#WiredPhone"/>
+        <testOntologyLongValue:hasTerriblyLongValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oh yes it does blablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla BLA bLa !!!!1!!ELF!</testOntologyLongValue:hasTerriblyLongValue>
+        <untitled-ontology-14:isBroken>no</untitled-ontology-14:isBroken>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#CompanyNet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#CompanyNet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Router"/>
+        <untitled-ontology-14:isLinked rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#SwitchA"/>
+        <untitled-ontology-14:knows rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserA"/>
+        <untitled-ontology-14:knows rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserB"/>
+        <untitled-ontology-14:knows rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserC"/>
+        <untitled-ontology-14:ConstructionYears rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1971</untitled-ontology-14:ConstructionYears>
+        <untitled-ontology-14:isBroken rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yes</untitled-ontology-14:isBroken>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#HomeNet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#HomeNet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Router"/>
+        <untitled-ontology-14:knows rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserC"/>
+        <untitled-ontology-14:ConstructionYears rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020</untitled-ontology-14:ConstructionYears>
+        <untitled-ontology-14:isBroken rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</untitled-ontology-14:isBroken>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PC"/>
+        <untitled-ontology-14:isLinked rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#CompanyNet"/>
+        <untitled-ontology-14:isLinked rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#SwitchA"/>
+        <untitled-ontology-14:knows rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserB"/>
+        <untitled-ontology-14:ConstructionYears rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2013</untitled-ontology-14:ConstructionYears>
+        <untitled-ontology-14:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</untitled-ontology-14:ID>
+        <untitled-ontology-14:isBroken rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</untitled-ontology-14:isBroken>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PC"/>
+        <untitled-ontology-14:isLinked rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#CompanyNet"/>
+        <untitled-ontology-14:knows rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserA"/>
+        <untitled-ontology-14:BelongsTo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Florian</untitled-ontology-14:BelongsTo>
+        <untitled-ontology-14:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">73</untitled-ontology-14:ID>
+        <untitled-ontology-14:isBroken rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</untitled-ontology-14:isBroken>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#PCUserC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Tablet"/>
+        <untitled-ontology-14:isLinked rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#CompanyNet"/>
+        <untitled-ontology-14:isLinked rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#HomeNet"/>
+        <untitled-ontology-14:BelongsTo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friedrich</untitled-ontology-14:BelongsTo>
+        <untitled-ontology-14:ConstructionYears rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018</untitled-ontology-14:ConstructionYears>
+        <untitled-ontology-14:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</untitled-ontology-14:ID>
+        <untitled-ontology-14:isBroken rdf:datatype="http://www.w3.org/2001/XMLSchema#string">No</untitled-ontology-14:isBroken>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#SwitchA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#SwitchA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#Switch"/>
+        <untitled-ontology-14:isLinked rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/0/untitled-ontology-14#CompanyNet"/>
+        <untitled-ontology-14:ConstructionYears rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1803</untitled-ontology-14:ConstructionYears>
+        <untitled-ontology-14:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">01</untitled-ontology-14:ID>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

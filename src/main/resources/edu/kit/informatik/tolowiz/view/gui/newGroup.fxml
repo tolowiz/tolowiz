@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="474.0" prefWidth="393.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox fx:id="groupsVBoxPane" prefHeight="305.0" prefWidth="393.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+          <AnchorPane minHeight="68.0" prefHeight="68.0" VBox.vgrow="NEVER">
+               <children>
+                  <ToolBar layoutX="-3.0" layoutY="27.0" prefHeight="100.0" prefWidth="393.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <items>
+                        <TextField fx:id="groupName" promptText="Group Name" />
+                        <Button fx:id="createGroupButton" mnemonicParsing="false" text="Create Group" />
+                     </items>
+                  </ToolBar>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="27.0" prefHeight="27.0" VBox.vgrow="NEVER">
+               <children>
+                  <Label fx:id="warningBarGroups" maxHeight="27.0" prefHeight="27.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

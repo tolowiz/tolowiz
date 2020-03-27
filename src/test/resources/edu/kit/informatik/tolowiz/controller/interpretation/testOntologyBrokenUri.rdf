@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<rdf:RDF
+     xml:base="http://www.semanticweb.org/anne/ontologies/2020/1/presentationOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:brokenUriOntology="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#"
+     xmlns:presentationOntology="http://www.semanticweb.org/anne/ontologies/2020/1/presentationOntology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Bluetooth -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Bluetooth"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Cable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Cable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Interface -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Interface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#isInNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#isInNetwork"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#isLinked -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#isLinked"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#softwareInventory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#softwareInventory"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#AllowedConnections -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#AllowedConnections"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#AllowedUsers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#AllowedUsers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CPU -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CPU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CompanyOwned -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CompanyOwned"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#ConstructionYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#ConstructionYear"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#GPU -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#GPU"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#electricityNeeds -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#electricityNeeds"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#HardwareDevice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#HardwareDevice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Interface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Mouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Mouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#HardwareDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Network"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#HardwareDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Router -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Router">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#HardwareDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Software"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#BluethoothMouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#BluethoothMouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Mouse"/>
+        <brokenUriOntology:Bluetooth rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCUserA"/>
+        <brokenUriOntology:ConstructionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</brokenUriOntology:ConstructionYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CompanyNet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CompanyNet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Network"/>
+        <brokenUriOntology:AllowedConnections rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</brokenUriOntology:AllowedConnections>
+        <brokenUriOntology:CompanyOwned>yes</brokenUriOntology:CompanyOwned>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#FritzBox1070 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#FritzBox1070">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Router"/>
+        <brokenUriOntology:isInNetwork rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CompanyNet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#HomeNet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#HomeNet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Network"/>
+        <brokenUriOntology:AllowedConnections rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</brokenUriOntology:AllowedConnections>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCInterface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCInterface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Interface"/>
+        <brokenUriOntology:isInNetwork rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CompanyNet"/>
+        <brokenUriOntology:AllowedConnections rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</brokenUriOntology:AllowedConnections>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCUserA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCUserA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PC"/>
+        <brokenUriOntology:isInNetwork rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#HomeNet"/>
+        <brokenUriOntology:softwareInventory rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Photoshop"/>
+        <brokenUriOntology:softwareInventory rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Windows"/>
+        <brokenUriOntology:CPU>i5 8gen</brokenUriOntology:CPU>
+        <brokenUriOntology:CompanyOwned>no</brokenUriOntology:CompanyOwned>
+        <brokenUriOntology:GPU>U620</brokenUriOntology:GPU>
+        <brokenUriOntology:electricityNeeds>1kwh</brokenUriOntology:electricityNeeds>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCUserB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCUserB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PC"/>
+        <brokenUriOntology:Interface rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCInterface"/>
+        <brokenUriOntology:isInNetwork rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#CompanyNet"/>
+        <brokenUriOntology:softwareInventory rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Windows"/>
+        <brokenUriOntology:AllowedUsers>Florian Patzer</brokenUriOntology:AllowedUsers>
+        <brokenUriOntology:CPU>i9 7gen</brokenUriOntology:CPU>
+        <brokenUriOntology:CompanyOwned>yes</brokenUriOntology:CompanyOwned>
+        <brokenUriOntology:ConstructionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</brokenUriOntology:ConstructionYear>
+        <brokenUriOntology:GPU>GTX 1070</brokenUriOntology:GPU>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Photoshop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Photoshop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Protege -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Protege">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Software"/>
+        <brokenUriOntology:softwareInventory rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCUserB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Windows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Windows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Software"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#WiredMouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#WiredMouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#Mouse"/>
+        <brokenUriOntology:Cable rdf:resource="http://www.semanticweb.org/anne/ontologies/2020/1/brokenUriOntology#PCUserB"/>
+        <brokenUriOntology:ConstructionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</brokenUriOntology:ConstructionYear>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

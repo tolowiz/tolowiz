@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.embed.swing.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane minHeight="200" minWidth="400" prefHeight="550.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane fx:id="stackPane" prefHeight="550.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox fx:id="vBoxAll" prefHeight="700.0" prefWidth="1179.0">
+               <children>
+                  <MenuBar>
+                    <menus>
+                      <Menu mnemonicParsing="false" text="File">
+                        <items>
+                          <MenuItem fx:id="openOntology" mnemonicParsing="false" onAction="#openOntology" text="Open Ontology">
+                                 <accelerator>
+                                    <KeyCodeCombination alt="UP" code="O" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                 </accelerator>
+                              </MenuItem>
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem fx:id="importConfiguration" mnemonicParsing="false" onAction="#importConfiguration" text="Import Configuration" />
+                              <MenuItem fx:id="exportConfiguration" disable="true" mnemonicParsing="false" onAction="#exportConfiguration" text="Export Configuration" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <Menu fx:id="exportAsImage" disable="true" mnemonicParsing="false" text="Export As Image" />
+                              <!--<MenuItem fx:id="exportAsPDF" disable="true" mnemonicParsing="false" onAction="#exportAsPDF" text="Export As PDF" />t-->
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem fx:id="closeOntology" disable="true" mnemonicParsing="false" onAction="#closeOntology" text="Close Ontology">
+                                 <accelerator>
+                                    <KeyCodeCombination alt="UP" code="W" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                 </accelerator>
+                              </MenuItem>
+                        </items>
+                      </Menu>
+                        <Menu fx:id="graph" mnemonicParsing="false" text="Graph">
+                          <items>
+                            <MenuItem fx:id="restoreStandardAlignment" disable="true" mnemonicParsing="false" onAction="#restoreStandardAlignment" text="Restore Standard Alignment" />
+                              <MenuItem fx:id="restoreStandardView" disable="true" mnemonicParsing="false" onAction="#restoreStandardView" text="Restore Standard View" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem mnemonicParsing="false" onAction="#loadConfiguration" text="Load Configuration" />
+                              <MenuItem fx:id="saveConfiguration" disable="true" mnemonicParsing="false" onAction="#saveConfiguration" text="Save Configuration">
+                                 <accelerator>
+                                    <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                 </accelerator>
+                              </MenuItem>
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <MenuItem fx:id="undoMenuItem" disable="true" mnemonicParsing="false" onAction="#undo" text="Undo">
+                                 <accelerator>
+                                    <KeyCodeCombination alt="UP" code="Z" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                 </accelerator>
+                              </MenuItem>
+                              <MenuItem fx:id="redoMenuItem" disable="true" mnemonicParsing="false" onAction="#redo" text="Redo">
+                                 <accelerator>
+                                    <KeyCodeCombination alt="UP" code="Y" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                                 </accelerator>
+                              </MenuItem>
+                          </items>
+                        </Menu>
+                      <Menu mnemonicParsing="false" text="View">
+                        <items>
+                              <Menu mnemonicParsing="false" text="Font Size">
+                                <items>
+                                    <RadioMenuItem fx:id="size6" mnemonicParsing="false" onAction="#changeFontSize" text="6">
+                                       <toggleGroup>
+                                          <ToggleGroup fx:id="fontSize" />
+                                       </toggleGroup>
+                                    </RadioMenuItem>
+                                    <RadioMenuItem fx:id="size7" mnemonicParsing="false" onAction="#changeFontSize" text="7" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size8" mnemonicParsing="false" onAction="#changeFontSize" text="8" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size9" mnemonicParsing="false" onAction="#changeFontSize" selected="true" text="9" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size10" mnemonicParsing="false" onAction="#changeFontSize" text="10" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size11" mnemonicParsing="false" onAction="#changeFontSize" text="11" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size12" mnemonicParsing="false" onAction="#changeFontSize" text="12" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size13" mnemonicParsing="false" onAction="#changeFontSize" text="13" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size14" mnemonicParsing="false" onAction="#changeFontSize" text="14" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size15" mnemonicParsing="false" onAction="#changeFontSize" text="15" toggleGroup="$fontSize" />
+                                    <RadioMenuItem fx:id="size16" mnemonicParsing="false" onAction="#changeFontSize" text="16" toggleGroup="$fontSize" />
+                                </items>
+                              </Menu>
+                              <MenuItem fx:id="switchToPresentingMode" disable="true" mnemonicParsing="false" onAction="#switchToPresentingMode" text="Presenting Mode" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="?">
+                          <items>
+                            <MenuItem mnemonicParsing="false" onAction="#showHelp" text="Help">
+                                 <accelerator>
+                                    <KeyCodeCombination alt="ANY" code="F1" control="ANY" meta="ANY" shift="ANY" shortcut="ANY" />
+                                 </accelerator>
+                              </MenuItem>
+                              <MenuItem mnemonicParsing="false" onAction="#showCredits" text="Credits" />
+                          </items>
+                        </Menu>
+                    </menus>
+                  </MenuBar>
+                  <ToolBar>
+                    <items>
+                        <Button fx:id="saveButton" disable="true" mnemonicParsing="false" onAction="#saveConfiguration" />
+                        <Button fx:id="undoButton" disable="true" mnemonicParsing="false" onAction="#undo" />
+                        <Button fx:id="redoButton" disable="true" mnemonicParsing="false" onAction="#redo" />
+                    </items>
+                  </ToolBar>
+                  <SplitPane fx:id="splitPaneWithTabs" dividerPositions="0.3" prefHeight="4000.0">
+                     <items>
+                        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <SplitPane dividerPositions="0.4" orientation="VERTICAL" prefHeight="453.0" prefWidth="237.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <items>
+                                    <ScrollPane fx:id="detailArea" fitToHeight="true" fitToWidth="true" />
+                                    <ScrollPane fx:id="configurationArea" fitToHeight="true" fitToWidth="true">
+                                       <content>
+                                          <TabPane fx:id="configurationTabs" tabClosingPolicy="UNAVAILABLE">
+                                            <tabs>
+                                                <Tab text="Types">
+                                                   <content>
+                                                      <ScrollPane fx:id="typesArea" fitToHeight="true" fitToWidth="true" />
+                                                   </content>
+                                                </Tab>
+                                              <Tab text="Relations">
+                                                   <content>
+                                                      <ScrollPane fx:id="relationsArea" fitToHeight="true" fitToWidth="true" />
+                                                   </content>
+                                                </Tab>
+                                              <Tab text="Values">
+                                                   <content>
+                                                      <ScrollPane fx:id="valuesArea" fitToHeight="true" fitToWidth="true" />
+                                                   </content>
+                                                </Tab>
+                                                <Tab text="Groups">
+                                                   <content>
+                                                      <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                                        <items>
+                                                            <ToolBar>
+                                                              <items>
+                                                                <Button fx:id="createNewGroup" disable="true" mnemonicParsing="false" text="Create New Group" />
+                                                              </items>
+                                                            </ToolBar>
+                                                            <ScrollPane fx:id="groupsArea" fitToHeight="true" fitToWidth="true" prefHeight="229.0" prefWidth="287.0">
+                                                               <content>
+                                                                  <VBox fx:id="groupsVBox" prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                                                                     <padding>
+                                                                        <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+                                                                     </padding>
+                                                                  </VBox>
+                                                               </content>
+                                                            </ScrollPane>
+                                                        </items>
+                                                      </SplitPane>
+                                                   </content>
+                                                </Tab>
+                                                <Tab text="Hidden Instances">
+                                                   <content>
+                                                      <VBox fx:id="hiddenInstancesVBox" spacing="6.0">
+                                                         <padding>
+                                                            <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+                                                         </padding></VBox>
+                                                   </content>
+                                                </Tab>
+                                            </tabs>
+                                          </TabPane>
+                                       </content>
+                                    </ScrollPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane fx:id="tabPaneAnchor" prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="427.0" prefWidth="694.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                              <Button fx:id="leavePresentingMode" disable="true" mnemonicParsing="false" text="Leave Presenting Mode" visible="false" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+                           </children></AnchorPane>
+                     </items>
+                  </SplitPane>
+                  <AnchorPane fx:id="warningBarPane">
+                     <children>
+                        <Label fx:id="warningBar" text="" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

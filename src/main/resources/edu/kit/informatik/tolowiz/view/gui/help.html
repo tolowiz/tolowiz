@@ -1,0 +1,154 @@
+<html>
+	<head>
+		<title>ToloWiz Help</title>
+	</head>
+	<body style="font-family: sans-serif; font-size: 13">
+		<h1>ToloWiz Help</h1>
+
+		<img width=1000 height=580 src="tolowizhelp.jpg">
+		<h2>1. The Menu Bar</h2>
+
+
+		<h3>File</h3>
+
+		<p>Provides operations concerning files in your file system like loading and saving ontologies and configurations.</p>
+
+		<h4>Open Ontology (Ctrl + O)</h4>
+
+		<p>Choose an Ontology file (rdf or owl) from your file system. The described ontology will now be interpreted and displayed by ToloWiz. The ontology file must be written in RDF/XML syntax.</p>
+		<h4>Import Configuration</h4>
+
+		<p>Choose a .tolo file from your file system to open and display an ontology, whose view has already been adjusted with ToloWiz.</p>
+		<h4>Export Configuration</h4>
+
+		<p>Generate a .tolo file in your file system that contains your current ontology as well as all information concerning layout and arrangement of its view. This file can then be shared with others to exchange ontology arrangements.</p>
+		<h4>Export As Image</h4>
+
+		<p>Generates a png file, showing your whole current ontology like you arranged it with ToloWiz.
+		</p>
+		<h4>Export as PDF</h4>
+
+		<p>Generates a PDF file, showing your whole current ontology like you arranged it with ToloWiz.
+		</p>
+		<h4>Close Ontology (Ctrl + W)</h4>
+
+		<p>Closes the currently displayed ontology and its tab in the program.</p>
+
+
+
+		<h3>Graph</h3>
+
+<p>Provides operations manipulating the view of your currently opened ontology.</p>
+
+<h4>Restore Standard Alignment</h4>
+
+<p>Restores the alignment of all nodes and edges of the graph representing the ontology to the default alignment calculated by ToloWiz. This means that all types and relations are hidden initially, you have to check the according boxes again.</p>
+<h4> Restore Standard View</h4>
+
+<p>Restores the default view of the ontology. All edges and nodes of the graph will be shown in the ToloWiz default design again. This includes relation styles, type icons, hidden instances and groups.</p>
+<h4> Load Configuration</h4>
+
+<p>Loads a configuration saved in the internal ToloWiz database. You can pick one from the file chooser. Displays the ontology with the alignment and view described by the configuration.</p>
+<h4> Save Configuration (Ctrl + S)</h4>
+
+<p>Saves the ontology with the current alignment and view in the internal ToloWiz database. </p>
+<h4>Undo (Ctrl + Z)</h4>
+
+<p> Undoes your latest operation changing the ontology graph.</p>
+<h4>Redo (Ctrl + Y)</h4>
+
+<p> Redoes the latest undo.</p>
+
+<h3>View</h3>
+
+<p>Provides operations to change this program&apos;s appearance.</p>
+
+<h4>Font Size</h4>
+
+<p>Changes the font size of all elements of the user interface. This does not influence the font size in the graph. </p>
+<h4>  Presenting Mode</h4>
+
+<p>Changes the view of the program to only show the visualization of the current ontology. It is not possible to show a context menu to a selected node anymore, but you can still zoom, pan or drag a node. Leave the presenting mode by clicking &quot;Leave Presenting Mode&quot;.</p>
+
+
+<h3>?</h3>
+
+<p>Provides further information about the program.</p>
+
+<h4>Help (F1)</h4>
+
+<p>Shows this help page to explain basic features of the program.</p>
+<h4> Credits</h4>
+
+<p>Some bragging about the awesome ToloWiz developers. </p>
+<h2>2. The Quick Menu</h2>
+<p>Provides quick access to operation from the Menu Bar</p>
+<ul>
+<li>  Save Configuration</li>
+
+<li>   Undo</li>
+
+<li>    Redo</li>
+</ul>
+
+<h2>3. The Ontology Graph</h2>
+<p>This is the main part of the program. Here, all opened ontologies will be displayed in their respective tabs. There is an interactive ontology graph view as well as undo and redo buttons.</p>
+
+<p>Possible interactive operations:</p>
+<ul>
+<li>  Change the position of instances with drag and drop.</li>
+
+<li>   Open a detail menu by right-clicking on an instance to show the instance&apos;s values or hide it. You can also add it to or remove it from a group. Additionally, you can mark the selected instance with a color, shape or stroke.</li>
+
+<li>    Change the zoom factor by scrolling with the mouse-wheel. You will zoom in to the point your mouse cursor is currently pointing to.</li>
+
+<li>    Set the zoom factor so that the whole graph is visible by right clicking to the background and selecting &quot;Show Total Graph&quot;.</li>
+
+
+<li>     Navigate through the visualization with the arrow keys of the keyboard.</li>
+
+</ul>
+
+<h2>4. Value Area</h2>
+<p>This area displays values and relations of a selected instance. You can show values of an instance by right-clicking it and selecting &quot;Show Values&quot;. You can select which values will be shown for which type in the tab &quot;Values&quot; of the Configuration Area.</p>
+
+<h2>5. The Configuration Area</h2>
+<p>In this part, you can manipulate visibility and style of types, relations and values.</p>
+
+<ul>
+<li> Types: After opening an ontology, all types are unchecked and thus invisible. You can show all instances of a certain type by clicking the checkbox next to the type. <br>By clicking the arrow to the right of the type, you can open another menu to change the appearance of all instances of the type.</li><br>
+<ul>
+	<li>   Import Icon: Select an icon from your file system that could later be chosen as an icon for this type.</li>
+
+	<li>    Change Icon: Sets a new icon for all instances of this type. The icon needs to be imported first.</li>
+
+	<li>     Change Mark: Change the style of the instances of this type. You can change the shape of the icon, the stroke around the icon and the color of this stroke.</li>
+	
+	<li>   Display As...: Choose a way to display the instances of a type. There are currently two ways to display instances: "Default" or "Interface".</li><br>
+</ul>
+
+<li>     Relations: after opening the ontology, all relations are unchecked. You can make a certain kind of relation visible by clicking the checkbox next to its name. There is also another menu accessible by clicking the arrow to the right of each relation name. Here, you can change the color, stroke and arrowhead of each relation.</li><br>
+
+<li>    Values: here, you can select which values to show for an instance of each type by navigating to the correct type in the type hierarchy and clicking the checkbox next to the value you want to show. The values will be displayed in the Value Area. The selection will only show you the values that exist for instances which have this type as their direct type.</li><br>
+
+			<li>
+				Groups: here, you can create a new group of
+				instances with a group name of your choice. You may
+				select certain instances or whole types. This
+				enables you to perform operations on the whole
+				group, like showing or marking, instead of repeating them for every member
+				individually. You can also delete your existing
+				groups.
+			</li><br>
+			
+<li> Hidden Instances: Here is a list of instances that you hid by selecting them and choosing the "Hide Instance" menu item. You can show them again by clicking "Show".</li>
+		</ul>
+		<h2>
+			6. Error Bar
+		</h2>
+		<p>
+			This area will show warning messages if problems occur 
+			during the program execution. You can click on it to get a more detailed description on the errors that occured.		
+		</p>
+	</body>
+</html>

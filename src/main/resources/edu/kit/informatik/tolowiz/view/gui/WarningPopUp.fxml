@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="532.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="warningPopUpText" editable="false" layoutX="106.0" prefHeight="376.0" prefWidth="527.0" AnchorPane.bottomAnchor="59.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Button fx:id="warningButton" defaultButton="true" layoutX="345.0" layoutY="479.0" mnemonicParsing="false" onAction="#closeWarningPopUp" text="OK" AnchorPane.bottomAnchor="10.0" />
+   </children>
+</AnchorPane>
